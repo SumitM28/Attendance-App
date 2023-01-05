@@ -1,0 +1,32 @@
+
+
+
+.homeContainer{
+    width: 300px;
+    background-color: #0a0a12;
+    border-radius: 15px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.homeTitle{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.homeBtn{
+    font-size: 1.5rem;
+    padding: .5rem .6rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.homeBtn:hover{
+    background: #57576e;
+    color: white;
+}
